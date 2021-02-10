@@ -1,0 +1,66 @@
+body {
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 100%, 74%);
+}
+
+small{
+  color: gray;
+}
+
+h3{
+  margin: 0px;
+}
+
+input{
+  box-sizing: border-box;
+}
+
+.main {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form__container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.btn{
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  border-style: none;
+}
+
+.read{
+  background-color: hsl(248, 32%, 49%);
+}
+
+.save{
+background-color: hsl(154, 59%, 51%);
+}
+
+.form__container input{
+  border: solid gray 1px;
+  margin-bottom: 13px;
+  border-radius: 5px;
+  width: 95%;
+  padding: 15px;
+}
+
+.card{
+  text-align: left;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.685);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px auto;
+  width: 70%;
+}

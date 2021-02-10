@@ -22,6 +22,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 router(app);
+app.use("/", express.static("public"));
 
 app.listen(PORT);
 console.log(chalk.yellow(`App listen in @HOST:${PORT}`));

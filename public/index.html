@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/writing.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <title>Public blog</title>
+</head>
+
+<body>
+  <div class="main">
+    <h1>Public blog</h1>
+    <p>Leave a message and read other people's messages </p>
+    <form class="form__container">
+      <input type="text" placeholder="User" id="user">
+      <input type="text" placeholder="Message" id="message">
+      <input type="button" class="btn save" value="Save message" onclick="postMessage()">
+    </form>
+    <button class="btn read" onclick="getMessages()">Read messages</button>  
+  </div>
+  <div id="container"></div>
+  <script src="app.js"></script>
+</body>
+
+</html>
