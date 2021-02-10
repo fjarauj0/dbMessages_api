@@ -11,7 +11,7 @@
 | **Entregable**  | Código en Github, API Rest prueba en Postman , Readmed |
 | **Habilidades a evaluar**  | Uso de bases de datos no relacionales, creación de APIs |
 
-App: https://dbmessages-api.herokuapp.com/app
+App: https://dbmessages-api.herokuapp.com
 
 # dbMessages_api Backend
 Deployed in Heroku: https://dbmessages-api.herokuapp.com/
